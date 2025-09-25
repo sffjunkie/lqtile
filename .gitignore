@@ -1,0 +1,6 @@
+.direnv
+.envrc
+.python-version
+.venv
+.vscode
+**/__pycache__
