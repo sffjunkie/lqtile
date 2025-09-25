@@ -1,0 +1,40 @@
+bar:
+  bottom:
+    height: 38
+    margin:
+    - 0
+    - 8
+    - 8
+    - 8
+    opacity: 0.8
+    modules:
+      left:
+      - net
+      - memory
+      - cpu_usage
+      - cpu_temp
+      - bluetooth
+      - wifi
+      middle:
+      right:
+      - music
+      - volume
+  top:
+    height: 38
+    margin:
+    - 8
+    - 8
+    - 0
+    - 8
+    opacity: 0.8
+    modules:
+      left:
+      - user
+      - groups
+      - layout
+      middle:
+      - window_name
+      right:
+      - temp
+      - date_time
+      - system

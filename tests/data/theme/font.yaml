@@ -1,0 +1,13 @@
+font:
+  icon:
+    family: Material Design Icons
+    size: 22
+  logo:
+    family: Hack Nerd Font
+    size: 22
+  text:
+    family: JetBrainsMono Nerd Font
+    size: 16
+  weather:
+    family: Hack Nerd Font
+    size: 22

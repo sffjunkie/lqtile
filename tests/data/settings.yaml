@@ -1,0 +1,30 @@
+app:
+  app_launcher: rofi-launcher
+  brain: /nix/store/5swycra7hzwfa9sfidbjlwflry4vib01-obsidian-1.8.9/bin/obsidian
+  browser: /nix/store/gx82kd2i0gi4dfn0jsb8sjla0lisz4vi-brave-1.76.74/bin/brave
+  clipboard_copy: rofi-clip -c
+  clipboard_delete: rofi-clip -d
+  code: /nix/store/qbwqm91mvwahgw6458fnl55xyjxn12vr-code-1.98.2/bin/code
+  system_menu: system-menu
+  terminal: /nix/store/lcpldarpy2zan5ypm52hj8nqsgi6s750-alacritty-0.15.1/bin/alacritty
+  volume: /nix/store/xiiidy5dqrkrnm1fxxaxkkyycsvnzyzv-pavucontrol-6.1/bin/pavucontrol
+controller:
+  music:
+    next: musicctl next
+    play: musicctl play
+    previous: musicctl previous
+    stop: musicctl stop
+    toggle: musicctl toggle
+  volume:
+    down: volumectl down
+    mute: volumectl mute
+    toggle: volumectl toggle
+    up: volumectl up
+device:
+  net: wlp3s0
+key:
+  alt: mod1
+  cmd: mod4
+  ctrl: control
+  hyper: mod3
+  shift: shift

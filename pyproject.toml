@@ -1,0 +1,34 @@
+[project]
+name = "lqtile"
+version = "0.1.0"
+description = "Looniversity Qtile"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pydantic>=2.11.9",
+    "pyyaml>=6.0.2",
+]
+
+[tool.pytest.ini_options]
+markers = ["unit", "integration"]
+pythonpath = ["./qtile"]
+junit_family = "xunit2"
+norecursedirs = [
+    ".direnv",
+    ".venv",
+    ".git",
+    ".tox",
+    ".cache",
+    ".settings",
+    "dist",
+    "build",
+    "docs",
+    ".devenv",
+]
+
+[build-system]
+requires = ["flit_core >=3.11,<4"]
+build-backend = "flit_core.buildapi"
+
+[dependency-groups]
+dev = ["pytest>=8.4.2"]
